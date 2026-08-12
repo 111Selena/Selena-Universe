@@ -1,0 +1,11 @@
+node_modules/
+check-*.png
+desktop-*.png
+mobile-*.png
+nul
+debug-*.js
+verify-*.js
+capture.js
+scroll-screenshot.js
+package-lock.json
+.DS_Store
