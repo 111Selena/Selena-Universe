@@ -1172,6 +1172,10 @@
 
         .timeline-desc { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; }
         .timeline-desc strong { color: var(--text-light); }
+        .timeline-desc-list { list-style: none; padding: 0; margin: 0.5rem 0 0; }
+        .timeline-desc-list li { color: var(--text-muted); font-size: 0.9rem; line-height: 1.7; padding-left: 1rem; position: relative; margin-bottom: 0.3rem; }
+        .timeline-desc-list li::before { content: '▸'; color: var(--magenta-light); position: absolute; left: 0; }
+        .timeline-desc-list li strong { color: var(--text-light); }
 
         .timeline-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 
@@ -2810,7 +2814,7 @@
                 <ul class="trait-list">
                     <li class="trait-item"><span class="trait-bullet">●</span><span>昵称：<strong>Selena🌻阿宋</strong>（宋丽童）</span></li>
                     <li class="trait-item"><span class="trait-bullet">●</span><span>身份：<span class="trait-highlight">广播电视艺术硕士应届生</span></span></li>
-                    <li class="trait-item"><span class="trait-bullet">●</span><span>目标方向：<strong>科技公司市场/品牌岗</strong></span></li>
+                    <li class="trait-item"><span class="trait-bullet">●</span><span>目标方向：<strong>内容/品牌岗</strong></span></li>
                     <li class="trait-item"><span class="trait-bullet">●</span><span>核心标签：<span class="trait-highlight">用AI"破壁"的内容人</span></span></li>
                 </ul>
             </div>
@@ -2986,15 +2990,23 @@
             <div class="timeline-item fade-in">
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
-                    <span class="timeline-year">进行中...</span>
-                    <h3 class="timeline-title">🚀 冲刺科技公司市场品牌岗位</h3>
-                    <p class="timeline-desc">以"一个集感性与理性于一身的梦想家"为信念，全力冲刺科技公司的运营/市场岗位，期待在更大的舞台上发挥内容+AI的复合优势。</p>
+                    <span class="timeline-year">2026</span>
+                    <h3 class="timeline-title">🌟 北辰青年AI项目</h3>
+                    <p class="timeline-desc">
+                        在<strong>北辰青年</strong>AI实践项目中深度探索AI+内容创作的边界：
+                    </p>
+                    <ul class="timeline-desc-list">
+                        <li><strong>打造AI作品集：</strong>vibe coding开发个人网页、对话agent、工作流skill、AI互动游戏、AIGC视频</li>
+                        <li><strong>招新创意策划：</strong>完成大学生求职洞察报告，产出招新内容策略，制作招新海报、AI创意游戏</li>
+                    </ul>
                     <div class="timeline-tags">
-                        <span class="timeline-tag">求职中</span>
-                        <span class="timeline-tag">未来可期</span>
+                        <span class="timeline-tag">AI实践</span>
+                        <span class="timeline-tag">Vibe Coding</span>
+                        <span class="timeline-tag">北辰青年</span>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="planet-nav-group">
             <div class="planet-nav-label">前往其他星球</div>
